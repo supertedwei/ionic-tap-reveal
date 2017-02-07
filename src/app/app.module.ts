@@ -2,11 +2,13 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { TapRevealComponent } from '../components/tap-reveal/tap-reveal';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    TapRevealComponent
   ],
   imports: [
     IonicModule.forRoot(MyApp)
